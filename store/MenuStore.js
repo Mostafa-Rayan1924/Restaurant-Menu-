@@ -29,7 +29,6 @@ const useMenuStore = create((set, get) => ({
       let filterItemBySearch = items.filter((item) =>
         item.title.toLowerCase().includes(title.toLowerCase())
       );
-      console.log(filterItemBySearch);
       return {
         Products: filterItemBySearch,
       };
